@@ -2,7 +2,7 @@ var supportedTypes = ["Map", "StreetViewPanorama"];
 
 GoogleMaps = {
   load: _.once(function (options) {
-    options = _.extend({ v: "3.exp" }, options);
+    options = _.extend({ v: "3.59" }, options);
     var params = _.map(options, function (value, key) {
       return key + "=" + value;
     }).join("&");
